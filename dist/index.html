@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="https://kit.fontawesome.com/cd401c100b.js" crossorigin="anonymous"></script>
+<script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Today's To Do </h1>
+            <button id="btnRefresh"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+        <div class="input-container">
+            <input type="text" name="task" id="task" placeholder="Add to your list...">            
+            <i class="fa-solid fa-arrow-turn-down-left"></i>
+        </div>
+        <ul class="lists-parents">
+            <li id="status">
+                <p>Completed</p>
+                <p>Task</p>
+                <p>Delete</p>
+            </li>
+        </ul>
+        <button type="submit" class="clear">Clear all completed</button>
+    </div>
+</body>
+</html>
